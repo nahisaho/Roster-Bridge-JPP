@@ -1,0 +1,33 @@
+{
+  "keys": {
+    "development": {
+      "key": "dev-api-key-12345",
+      "description": "Development environment key",
+      "created_at": "2024-05-25T00:00:00Z",
+      "active": true,
+      "permissions": ["read", "write", "admin"]
+    },
+    "testing": {
+      "key": "test-api-key",
+      "description": "Testing environment key", 
+      "created_at": "2024-05-25T00:00:00Z",
+      "active": true,
+      "permissions": ["read", "write", "admin"]
+    },
+    "testing_alt": {
+      "key": "test-api-key-67890",
+      "description": "Alternative testing environment key", 
+      "created_at": "2024-05-25T00:00:00Z",
+      "active": true,
+      "permissions": ["read", "write"]
+    },
+    "production": {
+      "key": "prod-api-key-abcdef",
+      "description": "Production environment key",
+      "created_at": "2024-05-25T00:00:00Z", 
+      "active": true,
+      "permissions": ["read", "write"]
+    }
+  },
+  "default_key": "development"
+}

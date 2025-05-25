@@ -1,0 +1,6 @@
+sourcedId,status,dateLastModified,name,type,identifier,parentSourcedId
+org1,active,2024-01-01T00:00:00Z,Example School,school,SCHOOL-001,
+org2,active,2024-01-02T00:00:00Z,Science Department,department,DEPT-SCI,org1
+org3,active,2024-01-02T00:00:00Z,Mathematics Department,department,DEPT-MATH,org1
+org4,active,2024-01-03T00:00:00Z,Grade 10A,class,CLASS-10A,org1
+org5,active,2024-01-03T00:00:00Z,Grade 11B,class,CLASS-11B,org1

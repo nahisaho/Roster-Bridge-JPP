@@ -1,0 +1,5 @@
+sourcedId,status,dateLastModified,title,startDate,endDate,type,schoolYear,parentSourcedId
+session1,active,2024-01-01T00:00:00Z,2024 School Year,2024-04-01,2025-03-31,schoolYear,2024,
+session2,active,2024-02-01T00:00:00Z,2024 Spring Semester,2024-04-01,2024-09-30,term,2024,session1
+session3,active,2024-02-01T00:00:00Z,2024 Fall Semester,2024-10-01,2025-03-31,term,2024,session1
+session4,active,2024-12-01T00:00:00Z,2025 School Year,2025-04-01,2026-03-31,schoolYear,2025,

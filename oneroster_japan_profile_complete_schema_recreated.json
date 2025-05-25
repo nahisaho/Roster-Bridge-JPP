@@ -1,0 +1,173 @@
+{
+  "academicSessions": {
+    "description": "学期・年度等の期間情報",
+    "fields": [
+      {
+        "name": "sourcedId",
+        "type": "string",
+        "required": true,
+        "description": "学期・期間の一意なID（UUID形式）"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": false,
+        "description": "状態（active/tobedeleted）"
+      },
+      {
+        "name": "dateLastModified",
+        "type": "datetime",
+        "required": false,
+        "description": "最終更新日時（UTC ISO8601形式）"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "required": true,
+        "description": "期間名（例：2024年度）"
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": true,
+        "description": "期間種別（schoolYear固定）"
+      },
+      {
+        "name": "startDate",
+        "type": "date",
+        "required": true,
+        "description": "開始日（YYYY-MM-DD）"
+      },
+      {
+        "name": "endDate",
+        "type": "date",
+        "required": true,
+        "description": "終了日（YYYY-MM-DD）"
+      },
+      {
+        "name": "parent",
+        "type": "string",
+        "required": false,
+        "description": "親期間のsourcedId"
+      },
+      {
+        "name": "schoolYear",
+        "type": "string",
+        "required": true,
+        "description": "年度（西暦年）"
+      }
+    ]
+  },
+  "orgs": {
+    "description": "教育機関・組織情報（学校、教育委員会等）",
+    "fields": [
+      {
+        "name": "sourcedId",
+        "type": "string",
+        "required": true,
+        "description": "組織の一意なID"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": false,
+        "description": "状態"
+      },
+      {
+        "name": "dateLastModified",
+        "type": "datetime",
+        "required": false,
+        "description": "最終更新日時"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "description": "組織名"
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": true,
+        "description": "組織種別（school, districtなど）"
+      },
+      {
+        "name": "identifier",
+        "type": "string",
+        "required": true,
+        "description": "組織コード（学校コードなど）"
+      },
+      {
+        "name": "parent",
+        "type": "string",
+        "required": false,
+        "description": "親組織のID"
+      }
+    ]
+  },
+  "users": {
+    "description": "ユーザー情報（児童・生徒・教職員等）",
+    "fields": [
+      {
+        "name": "sourcedId",
+        "type": "string",
+        "required": true,
+        "description": "ユーザーの一意なID"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": false,
+        "description": "状態"
+      },
+      {
+        "name": "dateLastModified",
+        "type": "datetime",
+        "required": false,
+        "description": "最終更新日時"
+      },
+      {
+        "name": "enabledUser",
+        "type": "boolean",
+        "required": true,
+        "description": "有効ユーザーフラグ"
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "required": true,
+        "description": "ログインID"
+      },
+      {
+        "name": "givenName",
+        "type": "string",
+        "required": true,
+        "description": "名"
+      },
+      {
+        "name": "familyName",
+        "type": "string",
+        "required": true,
+        "description": "姓"
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "required": false,
+        "description": "メールアドレス"
+      },
+      {
+        "name": "sms",
+        "type": "string",
+        "required": false,
+        "description": "SMS番号"
+      },
+      {
+        "name": "phone",
+        "type": "string",
+        "required": false,
+        "description": "電話番号"
+      }
+    ]
+  }
+}

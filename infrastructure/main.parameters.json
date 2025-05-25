@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appName": {
+      "value": "roster-bridge-jpp"
+    },
+    "environment": {
+      "value": "prod"
+    },
+    "location": {
+      "value": "japaneast"
+    },
+    "dbAdminUsername": {
+      "value": "rosteradmin"
+    },
+    "dbAdminPassword": {
+      "value": "YourSecurePassword123!"
+    },
+    "apiKey": {
+      "value": "your-production-api-key-here"
+    }
+  }
+}

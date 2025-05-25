@@ -1,0 +1,8 @@
+sourcedId,status,dateLastModified,username,userIds,enabledUser,givenName,familyName,email,role,grades,orgs
+1,active,2024-01-01T00:00:00Z,john.doe,1,True,John,Doe,john.doe@example.com,student,"10,11",org1
+2,active,2024-01-01T00:00:00Z,jane.smith,2,True,Jane,Smith,jane.smith@example.com,teacher,,org1
+3,active,2024-01-02T00:00:00Z,tanaka.taro,3,True,太郎,田中,tanaka.taro@example.com,student,"10",org4
+4,active,2024-01-02T00:00:00Z,suzuki.hanako,4,True,花子,鈴木,suzuki.hanako@example.com,student,"11",org5
+5,active,2024-01-03T00:00:00Z,yamada.ichiro,5,True,一郎,山田,yamada.ichiro@example.com,teacher,,org2
+6,active,2024-01-03T00:00:00Z,sato.jiro,6,True,二郎,佐藤,sato.jiro@example.com,teacher,,org3
+7,active,2024-01-04T00:00:00Z,admin.user,7,True,Admin,User,admin@example.com,administrator,,org1
